@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.caja {
+    width: 500px;
+    height: 800px;
+    border-radius: 25px;
+    background-color: #f0f0f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: open sans;
+    color: #3b3b3b;
+}
+
+.usuario {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.email {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.email:focus {
+    outline: none;
+}
+.usuario:focus {
+    outline: none;
+}
+.password:focus {
+    outline: none;
+}
+.password {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.enviar {
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: #f0f0f4;
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: 600;
+    transition-property: background, box-shadow, color;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: #f0f0f4;
+    box-shadow: 0px 20px 20px #00000021;
+    color: #3b3b3b;
+}
